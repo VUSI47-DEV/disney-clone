@@ -46,7 +46,7 @@ const ProductionHouse = () => {
           return (
             <div
               key={production.id}
-              className=" border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-300 ease-in-out cursor-pointer relative shadow-xl shadow-gray-800">
+              className=" border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-300 ease-in-out cursor-pointer relative shadow-xl shadow-gray-700">
               <video
                 src={production.video}
                 autoPlay
